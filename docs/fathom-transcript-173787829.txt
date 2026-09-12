@@ -1,0 +1,198 @@
+Fathom transcript
+Recording ID: 173787829
+Title: Impromptu Google Meet Meeting
+
+[00:00:02] sukanya chatterjee: Oh, great.
+[00:00:05] sukanya chatterjee: Perfect.
+[00:00:13] sukanya chatterjee: think that's Gaurav, Gaurav.
+[00:00:15] Shivam: Yeah.
+[00:00:16] Shivam: Yeah.
+[00:00:17] Shivam: Perfect.
+[00:00:18] Shivam: Okay.
+[00:00:19] Shivam: So Gaurav, you actually never got to meet Shivam.
+[00:00:22] sukanya chatterjee: So Shivam, me, Gurmeet Ma'am, and Ravi sir met a couple of weeks ago.
+[00:00:28] sukanya chatterjee: This, and like Ravi sir had informed you, we are trying to create a chatbot, which is going to be like a one-stop solution to, as and when the sales team requires information on product update, you know, instead of us going hunting through all our folders that can act as a one-stop solution to providing them the information.
+[00:00:48] sukanya chatterjee: A lot of time what happens is that Saur also sends in information on his, on our WhatsApp groups and all.
+[00:00:55] sukanya chatterjee: So we just have to like be very diligent about kind of creating a...
+[00:01:00] sukanya chatterjee: A place where we put that information and then feed it to Shivam and his team so that they can incorporate that into the chatbot, so that becomes like a reservoir of information.
+[00:01:10] sukanya chatterjee: While we have Google and ChatGPT and all the AIs of the world to provide that information, the whole idea of why we want to create a separate bot for ourselves is because we have real life experience on what's actually happening on the ground.
+[00:01:24] sukanya chatterjee: So that information is going to be vetted by us, the product and the marketing.
+[00:01:28] sukanya chatterjee: So that's essentially what is.
+[00:01:31] sukanya chatterjee: So yeah, so Gaurav is pretty much up to date on everything.
+[00:01:38] Shivam: Now, okay, so Shivam, I've gone through the document that you had shared, and I'll just respond with my feedback there.
+[00:01:49] sukanya chatterjee: I think everything is pretty much pretty straightforward.
+[00:01:53] sukanya chatterjee: But yeah, I think in terms of how we are segregating our data right now is
+[00:02:00] sukanya chatterjee: That in our folders, like Jesse, for example, we have these properties.
+[00:02:06] sukanya chatterjee: Now we have a lot of properties that we work with.
+[00:02:09] sukanya chatterjee: So our documents and our folders have all the information of properties in one folder.
+[00:02:13] sukanya chatterjee: But what you are recommending in your, how you want to go about it is more location-based.
+[00:02:19] Gaurav Sharma: For example, if somebody wants a location for Satpura, so we have all of that.
+[00:02:24] sukanya chatterjee: So that will actually then mean Gaurav will have to reshuffle.
+[00:02:29] sukanya chatterjee: But that again is going to be a bit challenging at See, I'll tell you what, I'll tell you what, I don't want to put you guys into too much of a limbo for documents.
+[00:02:36] sukanya chatterjee: So we can also kind of shift the gears and it's just about having pilot data to get started with.
+[00:02:43] sukanya chatterjee: So if it's about hotels, I mean, the end result is going to be you'll need to give me 10 questions depending on the content that you've shared with me.
+[00:02:50] Shivam: So if you guys go with the folder of that hotel specifically, we can just start with that as well first.
+[00:02:57] sukanya chatterjee: And then you just need to give me 10 questions that are like,
+[00:03:00] sukanya chatterjee: commonly asked for related to question like hotel queries and then we will play around.
+[00:03:04] Shivam: So that was just like my idea of approaching it.
+[00:03:07] Shivam: My intent was just that we need a pilot test around data that we can play around with so that you guys get a feel of it as well and then we can scale it up as well.
+[00:03:15] Shivam: Perfect.
+[00:03:15] Shivam: Because see right now we have like say a folder say hotels.
+[00:03:19] sukanya chatterjee: Now that particular folder has all the hotels that we work with starting from Lela Raag to Kerala.
+[00:03:26] Shivam: Got we can probably give you that.
+[00:03:28] sukanya chatterjee: And then maybe a set of say 15 to 20 odd questions like, okay, I want to plan a trip to say Lela Raag.
+[00:03:36] sukanya chatterjee: So then automatically your chatbot will pull out the information of all the hotels that's there.
+[00:03:41] sukanya chatterjee: Then even further questions like, okay, demarket which is a five star property, which is a four star property.
+[00:03:48] Shivam: Demarket which property has pool, which doesn't have a pool.
+[00:03:51] Shivam: maybe.
+[00:03:52] Shivam: Exactly.
+[00:03:52] sukanya chatterjee: So whatever data is there on your content, it will basically refer and tell you exactly how this is what I've found from this specific doc.
+[00:03:59] sukanya chatterjee: If the data is.
+[00:04:00] sukanya chatterjee: If not there, then it won't actively like, you know, make something up and rather it won't even go online right now.
+[00:04:05] sukanya chatterjee: It will just tell you the data is not available right now and then we'll kind of pick it up from there.
+[00:04:10] sukanya chatterjee: Yes.
+[00:04:11] Shivam: I think that works for us.
+[00:04:12] Shivam: maybe let's look at our folders and let's start with something simpler.
+[00:04:17] Shivam: I think the hotel one will be good to go.
+[00:04:20] sukanya chatterjee: So how would you want us to share?
+[00:04:22] sukanya chatterjee: We store everything on our SharePoint.
+[00:04:24] Shivam: Okay.
+[00:04:25] Shivam: So right now, is it like a single folder which is… Yeah.
+[00:04:30] ravi: Sukanya, I think if you could involve Nazim also in this conversation because ultimately sales is the one who is going to use it.
+[00:04:42] ravi: And probably, you know, if he comes and sits with you and understands, maybe he will have some inputs.
+[00:04:48] ravi: Yeah.
+[00:04:49] ravi: And basically, like the idea, know, Shivam, you really need to know about the hotel, four-star, five-star, swimming pool, or not, how many are there.
+[00:04:59] ravi: And…
+[00:05:02] ravi: And does it belong to touch group or bright group?
+[00:05:06] Shivam: these are the basic questions that we need to know the kind of quoting.
+[00:05:11] Shivam: Because if they are quoting a five-star to a client who's wanting a seven-star, that's the wrong placement.
+[00:05:18] ravi: So similarly, if they want to quote a five-star to somebody looking at a four-star.
+[00:05:25] ravi: So price sensitive, price range.
+[00:05:27] Shivam: So these things are parameters which are required when they are quoting.
+[00:05:32] ravi: And all these information, Gaurav, I believe we already have in our hotel folders.
+[00:05:38] ravi: The hotel folder we have made.
+[00:05:41] ravi: These are all the parameters, right?
+[00:05:44] ravi: Yes, The product update folder is all the parameters that are mentioned.
+[00:05:48] sukanya chatterjee: Very good.
+[00:05:49] ravi: So you could start with that and then we could come to other folders like, make that.
+[00:05:55] ravi: I mean, those are product related or experiences.
+[00:05:58] Shivam: Experiences and...
+[00:05:59] Shivam: ...
+[00:06:00] Shivam: That would be the next, probably the next one.
+[00:06:03] sukanya chatterjee: And one by one, we'll step it up.
+[00:06:05] Shivam: That is fine.
+[00:06:06] Shivam: Once Sukanya and me are on track for the first thing done, then we can, you know, strategize how we want to keep including more content based on like you have read and we'll take it from there.
+[00:06:15] Shivam: But having the sales guy helps because like end goal, to quoting.
+[00:06:18] ravi: So whatever are the like questions that they usually come up with, it would be like, short shot, you'll know that actually the answer is they need or not.
+[00:06:27] Shivam: Perfectly.
+[00:06:28] Shivam: So that is probably a good idea to involve Nazim.
+[00:06:31] Shivam: Yeah.
+[00:06:31] sukanya chatterjee: I've already added Nazim to the group.
+[00:06:34] sukanya chatterjee: I think he's finishing a call.
+[00:06:36] Shivam: Otherwise, I'll quickly update Nazim.
+[00:06:38] Shivam: He's on the same page.
+[00:06:39] Shivam: worries.
+[00:06:39] sukanya chatterjee: He's updated and I'll be on the same page.
+[00:06:41] sukanya chatterjee: And we'll share that product.
+[00:06:43] Shivam: The SharePoint link, if we share that with you, that works.
+[00:06:46] Shivam: Oh, I'll send you.
+[00:06:48] sukanya chatterjee: If you access to you have an external organization, so that's fine.
+[00:06:52] sukanya chatterjee: But I'll ask you to download it as a zip folder and send it to me on Google Drive.
+[00:06:58] Shivam: I'll need to see how it ends.
+[00:07:00] Shivam: If you to it, then you can share a link, if you want to open it or not, I'll just share the email as well, Gaurav on here as well, I'll just share the email with you, I'm sure I'm sharing the digitalmasterykit email, I'll just check it on the same whatsapp group, yes, you can do the link, yes, do it, do it, as long as you made it marked us, anyone with link can open it.
+[00:07:30] Shivam: So that's fine.
+[00:07:31] sukanya chatterjee: Okay, so Nazim, quick introduction, this is Shivam, so Shivam, Nazim is our head of sales, and essentially this entire chatbot, so basically, we are trying to create a chatbot, which will act as our one stop solution to like how every time you have a question for us, you you want to want a quick update, sometimes you're not available, but that chatbot will act as like your data.
+[00:08:00] sukanya chatterjee: So whatever details, hotel related, experiences related, so the job of the marketing and the product department will be on the back end to keep updating it so that the sales team can use it for all the information that is required.
+[00:08:16] sukanya chatterjee: Now, so this is, we are going to start with a pilot episode where we are going to first give Shivam all the download of all the hotel based information that we have at our end.
+[00:08:26] sukanya chatterjee: He's going to create the prototype and then you're going to do a test drive where you or Nakash or someone from your team will ask those questions and see if you're getting the right answers.
+[00:08:37] sukanya chatterjee: Now, as of right now, Gaurav and I will make a list of say 20, 20, 15 to 20 odd questions that sales team would, you know, say, ask us that, okay, Sukanya tell me information about this material in this particular wildlife sanctuary.
+[00:08:51] sukanya chatterjee: Maybe I'll run those questions by you also and we'll share that with them so that they can start developing this attitude to the group also.
+[00:08:58] sukanya chatterjee: So basically.
+[00:08:59] sukanya chatterjee: basically.
+[00:09:00] sukanya chatterjee: Our final feedback should also come from you and your team as to, is this product solving the problem where your information is being provided or not?
+[00:09:09] sukanya chatterjee: So right now we are going to be in a testing situation.
+[00:09:12] sukanya chatterjee: So there's going to be a lot of pros and cons and a lot of updates and all.
+[00:09:15] sukanya chatterjee: So I think it's good that we start working on it from day one so that, you know, the final, so that is the whole idea of it.
+[00:09:24] sukanya chatterjee: Okay.
+[00:09:25] sukanya chatterjee: You guys can see my screen?
+[00:09:26] Shivam: Yeah, we can.
+[00:09:27] Shivam: This is the folder, right?
+[00:09:28] Shivam: If I've got this correct?
+[00:09:29] Shivam: Yes.
+[00:09:29] Shivam: Okay.
+[00:09:30] sukanya chatterjee: So could you give me a brief on how this is segregated right now?
+[00:09:33] sukanya chatterjee: It's basically state, then city, and so on and so forth?
+[00:09:38] Shivam: Yeah.
+[00:09:39] Shivam: Okay.
+[00:09:40] Shivam: So just like Mumbai, there's only one property dock.
+[00:09:43] Shivam: So basically I'll just train for Mumbai specifically to be trained on that, so on and so forth.
+[00:09:50] Shivam: General property updates is, I'm going to okay, that's Royce's update.
+[00:09:55] Shivam: So I'll this a little little going the first Here's one.
+[00:09:57] Shivam: two.
+[00:09:57] Shivam: That's big to
+[00:10:00] Shivam: So these are images, I'm guessing, or PDFs, right?
+[00:10:02] Shivam: They are PDFs.
+[00:10:04] sukanya chatterjee: Most of them are PDFs.
+[00:10:06] Gaurav Sharma: Some of the earlier versions were images.
+[00:10:09] Shivam: If you like the PDF version, then I can upload the PDF version of the same document.
+[00:10:14] Gaurav Sharma: No, that's fine.
+[00:10:15] Gaurav Sharma: not anything.
+[00:10:16] Gaurav Sharma: PDF, P&G, like as long as it's like image or PDFs.
+[00:10:19] Shivam: can keep telling us, Shivam, what you need from us.
+[00:10:22] Shivam: We have anything.
+[00:10:23] Shivam: If you need something that we also don't have, just give us like a days time.
+[00:10:27] Shivam: Makes sense, makes sense, makes sense.
+[00:10:31] Shivam: So this is, as of right now, the current update of it.
+[00:10:35] sukanya chatterjee: We are also still going through a lot of our other, you know, database and ensuring that everything is being updated.
+[00:10:42] sukanya chatterjee: But I think instead of waiting for this to be 100%, because that 100% will be very difficult to achieve.
+[00:10:47] sukanya chatterjee: Yeah, yeah, yeah, Keep updating, keep subtracting.
+[00:10:51] sukanya chatterjee: So let's at least start with this.
+[00:10:53] sukanya chatterjee: And of course, now that you have access, so whenever everything is updated, we at RN will also give you a...
+[00:10:59] sukanya chatterjee: ...
+[00:10:59] sukanya chatterjee: ...
+[00:11:00] sukanya chatterjee: You know, an update that, hey listen, we've updated something so just have a go but you yourself will also get to see it.
+[00:11:06] Shivam: Sounds good, sounds good.
+[00:11:08] Shivam: Okay, so I'll this, I'll make a very small lean MVP sort of and I'll give you guys for testing.
+[00:11:17] sukanya chatterjee: Just wanted to quickly make sure, I'm just going through the doc that I shared with you to make sure I have all the answers I need it.
+[00:11:24] sukanya chatterjee: Yeah, yeah, yep, yep, yep, yep, yep.
+[00:11:27] Shivam: Let me know if it's doomed, ended or doomed?
+[00:11:30] Shivam: Okay, perfect, cool, cool, cool, okay.
+[00:11:32] Shivam: Oh, this is fine, we are not doing destinations, I've got the access as well, once we have access it's fine, that's fine, no native, that's fine, okay.
+[00:11:44] Shivam: Everything is in English.
+[00:11:46] Shivam: Yeah, yeah, yeah, I figured, I figured it was the same, ultimately, so I'll use this as the only, I think, don't that don't do new.
+[00:11:56] Shivam: So that I'll keep this as the test data for now to just like play around with.
+[00:12:00] Shivam: We've pretty much answered all the questions that you have.
+[00:12:03] Shivam: But of course, if you need anything else.
+[00:12:06] Shivam: I think majority of people would be testing, I think you guys are only testing it.
+[00:12:12] Shivam: So that's not an issue for me.
+[00:12:15] Shivam: The only thing would be the final.
+[00:12:17] Shivam: Whenever you get time, of week, you can give me the questions that salespeople usually ask.
+[00:12:21] Shivam: You'll get the questions.
+[00:12:23] sukanya chatterjee: By tomorrow, you'll get the questions.
+[00:12:24] Shivam: Okay, no worries.
+[00:12:25] Shivam: So okay.
+[00:12:27] Shivam: I think I have everything.
+[00:12:28] Shivam: If I think something different, Sukanya, I'll ask you on the chat itself.
+[00:12:32] Shivam: And then I'll send the proposal from my end and I'll get started on this as well.
+[00:12:36] Shivam: naturally, I'll keep you guys updated on how things keep going.
+[00:12:38] Shivam: Perfect.
+[00:12:39] Shivam: And we'll be updating on the questions by tomorrow.
+[00:12:41] Shivam: Okay.
+[00:12:41] Shivam: Okay.
+[00:12:42] Shivam: Okay.
+[00:12:43] Shivam: Sounds good.
+[00:12:43] Shivam: Sounds good.
+[00:12:44] Shivam: your end?
+[00:12:49] sukanya chatterjee: From my end?
+[00:12:50] sukanya chatterjee: No.
+[00:12:51] sukanya chatterjee: Oh, Ravi sir has left.
+[00:12:53] sukanya chatterjee: I think he's not here.
+[00:12:54] Shivam: Okay.
+[00:12:56] Shivam: Sounds good.
+[00:12:56] Shivam: good.
+[00:12:57] Shivam: Okay.
+[00:12:57] Shivam: Thank you so much, guys.
+[00:12:58] Shivam: Take care.
+[00:12:59] Shivam: Take care.
+[00:12:59] Shivam: Take care.
+[00:13:00] Shivam: Bye-bye, bye-bye.

@@ -1,0 +1,84 @@
+# Render blueprint. The services were created through the API, and this file is
+# the same shape written down, so the deployment can be rebuilt or reviewed
+# without reading dashboard screens.
+#
+# WHY THE FRONTEND PROXIES /api INSTEAD OF CALLING THE API DIRECTLY.
+# The login cookie is HttpOnly with SameSite=strict, which a browser will not
+# send to a different site. A static site on one Render host calling an API on
+# another is cross-site, so every request would arrive signed out. The rewrite
+# below makes /api same-origin from the browser's point of view: the cookie
+# keeps working, no CORS, and the frontend needs no build-time API URL.
+#
+# Order matters. /api/* must be matched before the single-page-app catch-all, or
+# every API call would be answered with index.html.
+
+services:
+  - type: web
+    name: travelinn-api
+    runtime: python
+    plan: free
+    region: singapore                    # nearest to the Neon database and the users
+    rootDir: .
+    buildCommand: pip install -r backend/requirements-api.txt
+    startCommand: uvicorn backend.api.app:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      # sync: false means "the value is set on the service, not written here".
+      # Nothing secret belongs in a file that goes to GitHub.
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: PILOT_DSN
+        sync: false
+      - key: PILOT_DSN_DIRECT
+        sync: false
+      - key: R2_ACCOUNT_ID
+        sync: false
+      - key: R2_ACCESS_KEY_ID
+        sync: false
+      - key: R2_SECRET_ACCESS_KEY
+        sync: false
+      - key: R2_BUCKET
+        sync: false
+      - key: GEMINI_EMBEDDING_MODEL
+        value: gemini-embedding-2
+      - key: COOKIE_SECURE
+        value: "1"                       # Render serves https
+      - key: COOKIE_SAMESITE
+        value: strict                    # safe because /api is same-origin
+      - key: ASK_PER_MIN
+        value: "60"
+      - key: ASK_PER_MIN_ALL
+        value: "120"
+      # A free instance gets 512 MB and sleeps; a big idle pool wastes both, and
+      # Neon closes idle connections anyway.
+      - key: POOL_MIN
+        value: "1"
+      - key: POOL_MAX
+        value: "5"
+
+  - type: web
+    name: travelinn-web
+    runtime: static
+    plan: free
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /api/*
+        destination: https://travelinn-api.onrender.com/api/*
+      - type: rewrite
+        source: /*
+        destination: /index.html          # the router owns /c/:id and /saved
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: same-origin

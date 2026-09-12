@@ -1,0 +1,19 @@
+# What the SERVING side needs, and nothing else.
+#
+# requirements.txt is the whole toolchain, ingestion included: pypdfium2 renders
+# PDF pages, rapidocr and onnxruntime read the scanned images, rapidfuzz matches
+# entity names. None of that runs when answering a question -- the corpus is
+# already in Neon and Cloudflare R2 -- and onnxruntime alone is a ~200 MB wheel
+# that would dominate the build on a free instance.
+#
+# Measured, not guessed: these are the third-party modules actually imported by
+# backend/api, backend/query, config, db, storage and ingest/vocab.
+fastapi               # the HTTP surface
+uvicorn[standard]     # ASGI server
+pydantic              # request models
+psycopg[binary]       # Neon Postgres
+psycopg_pool          # a Neon dial costs ~1s, queries cost ms
+google-genai          # Gemini: planning, answering, embeddings
+boto3                 # Cloudflare R2 (S3 API)
+pillow                # evidence crops
+python-dotenv         # local .env; on Render the environment is already set

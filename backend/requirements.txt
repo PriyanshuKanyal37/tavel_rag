@@ -1,0 +1,15 @@
+# uv venv .venv --python 3.12
+# uv pip install -r requirements.txt
+google-genai          # Gemini: extraction + embeddings
+psycopg[binary]       # Neon Postgres
+psycopg_pool          # connection pool: a Neon dial costs ~1s, queries cost ms
+pypdfium2             # PDF page rendering
+pillow                # image tiling, thumbnails
+rapidocr              # text layer for the 37 images (CPU, ONNX)
+onnxruntime           # rapidocr backend
+rapidfuzz             # entity name matching
+boto3                 # Cloudflare R2 (S3 API)
+python-dotenv
+fastapi               # the HTTP surface
+uvicorn[standard]     # ASGI server
+httpx                 # fastapi TestClient

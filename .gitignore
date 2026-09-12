@@ -1,0 +1,49 @@
+# ---- secrets: never, under any circumstances ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- dependencies and build output ----
+backend/.venv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+node_modules/
+
+# ---- the corpus itself ----
+# The supplier documents and every image derived from them. They are client
+# material, they are ~270 MB, and they already live in Neon and Cloudflare R2 --
+# which is what the app reads. Nothing here is needed to build or run it.
+data/
+tiles/
+evidence/
+
+# Ingestion scratch: page manifests and the raw extraction output, which is
+# client property data in JSON form. Rebuilt by the pipeline, never read by the
+# running service.
+backend/work/
+
+# a stray screenshot from an e2e run whose output directory was unset
+frontend/undefined/
+
+# ---- working artefacts, not source ----
+e2e_test_results/
+frontend/e2e/shots/
+pilot/
+prototype/
+audit/
+audit.json
+.superpowers/
+*.log
+
+# ---- editors and OS ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
