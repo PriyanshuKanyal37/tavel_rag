@@ -1,0 +1,36 @@
+# Keeps the free Render instance awake.
+#
+# A free Render web service sleeps after 15 minutes idle and then takes about
+# 50 seconds to answer the next request -- long enough that a salesperson mid
+# call assumes it is broken. Render's own cron jobs have no free plan (the
+# cheapest is "starter" and it asks for a card), so the ping comes from here,
+# which is free for a public repository.
+#
+# NOTE: GitHub disables scheduled workflows on a repository with no commits for
+# 60 days. If answers start taking a minute again, check this workflow first.
+name: keep warm
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # under Render's 15-minute idle timeout
+  workflow_dispatch: {}       # and runnable by hand from the Actions tab
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Wake the API and the site
+        run: |
+          for url in \
+            "https://travelinn-api.onrender.com/api/health" \
+            "https://travelinn-web.onrender.com/"
+          do
+            # --max-time 90 because a cold start legitimately takes ~50s
+            code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 90 --retry 2 "$url" || echo 000)
+            echo "$url -> $code"
+            if [ "$code" != "200" ]; then echo "::warning::$url returned $code"; fi
+          done
